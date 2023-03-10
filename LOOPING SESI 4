@@ -1,0 +1,39 @@
+// SOAL NO 1
+ public static void main(String[] args){
+        for (int i=1; i<=11; i++){
+            System.out.print(i+" ");
+            i++;
+    }
+    }
+}
+
+// SOAL NO 2
+public static void main(String[] args){
+        for (int a=20; a>=0; a-=5){
+            System.out.print(a+" ");
+        }
+    }
+}
+
+// SOAL NO 3
+ public static void main(String[] args) {
+        for (int i = 1; i <= 3; i++) { 
+            for (int j = i; j <= i + 3; j++) { 
+            }
+            System.out.println(); 
+        }
+    }
+}
+
+// SOAL NO 4
+  public static void main(String[] args) {
+        for (int i = 3; i <= 5; i++) {
+            for (int j = 2; j <= 6; j++) {
+                if (j == 2 && i == 3) { 
+                    continue;
+                }
+                System.out.println(i + " x " + j + " = " + (i * j));
+            }
+        }
+    }
+}
